@@ -55,7 +55,8 @@ export class AppComponent {
       this.error = "Please enter a number of teams that is less than the number of members."
       return;
     }
-    
+
+    this.teams = [[]]
     const allMembers = [...this.membres];
     
     while(allMembers.length){
